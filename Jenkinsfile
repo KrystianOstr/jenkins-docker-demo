@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'docker build -t nginx-test .'
                 sh 'docker images | grep nginx-test'
-                echo "DZIALAA!!!!"
+                echo "DZIALAA!!!!!"
             }
         }
     }
